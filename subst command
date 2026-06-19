@@ -1,0 +1,10 @@
+# Per creare
+
+subst P: "J:\googleDrive_sync\Portfolio and ongoing studies\Progetti (idee)\Get transaction Data with Paypal"
+
+# Per levare la mappatura
+
+subst P: /d
+
+
+# In ogni caso il comando subst è volatile: le mappature spariscono al riavvio. Per fare una mappatura persistente bisognerebbe creare un file batch (.bat) con il comando subst da mettere in esecuzione automatica oppure usare il registro di sistema (HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\DOS Devices) per renderla permanente.

@@ -1,0 +1,13 @@
+﻿.env
+venv/
+env/
+__pycache__/
+*.pyc
+*.exe
+*.xlsx
+
+# === Claude standard privato ===
+_notes/
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/memory/*.local.md
